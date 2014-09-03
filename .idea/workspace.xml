@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5be26e54-9027-414e-a1cf-27d410db85b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/js/script.js" afterPath="$PROJECT_DIR$/Setup GitHub/js/script.js" />
-    </list>
+    <list default="true" id="5be26e54-9027-414e-a1cf-27d410db85b4" name="Default" comment="" />
     <ignored path="Carter_Bonnie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
