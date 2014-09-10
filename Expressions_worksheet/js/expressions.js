@@ -19,4 +19,4 @@ var age = prompt("How old is your dog?");
 var dogAge = age*7;
 
 //alert the user with the dogs age in human age
-alert(name+" is "+dogAge+"in human years")
+alert(name+" is "+age+" in doggy years which equates to "+dogAge+" in human years!")
