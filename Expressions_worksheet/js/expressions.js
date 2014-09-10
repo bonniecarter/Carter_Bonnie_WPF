@@ -4,7 +4,10 @@
  * Activity: Expressions Worksheet
  */
 
-//getting information
+//What are we asking for:
+alert("Do you know how old your dog is in human years? We do!");
+
+//Getting Dog's Age:
 var name = prompt("What is your dog\'s name?");
 
 //test to make sure this works
