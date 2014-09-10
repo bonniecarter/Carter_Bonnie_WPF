@@ -4,3 +4,8 @@
  * Activity: Expressions Worksheet
  */
 
+//getting information
+var name = prompt("What is your dog\'s name?");
+
+//test to make sure this works
+console.log(name)
