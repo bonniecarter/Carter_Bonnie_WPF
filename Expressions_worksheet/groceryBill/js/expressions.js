@@ -32,9 +32,10 @@ alert("At your party last night you had "+attendees+" folks partying into the ni
 //print
 
 //declare variables
-var Week1;
-var Week2;
-var Week3;
-var Week4;
-var Week5;
+var Week1 = prompt ("What was your grocery bill in week 1?");
+var Week2 = prompt ("What was your grocery bill in week 2?");
+var Week3 = prompt ("What was your grocery bill in week 3?");
+var Week4 = prompt ("What was your grocery bill in week 4?");
+var Week5 = prompt ("What was your grocery bill in week 5?");
 
+//get inputs for grocery bills
