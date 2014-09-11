@@ -23,3 +23,24 @@
 
 //prompt for input of original price, discount, description & sales tax
 alert("Thank you for considering our lip gloss, find out what the sale price is here.");
+
+var originalPrice = prompt("How much does the lip gloss cost?");
+console.log(originalPrice);
+
+var discountPercent = prompt("What percentage is coming off the price?");
+console.log(discountPercent);
+
+var salesTax = prompt("What is the sales tax in your state?");
+console.log(salesTax);
+
+//do the math
+
+var paidPercentage = (100-discountPercent)/100
+
+var withoutSalesTax =
+
+var withSalesTax =
+
+//results “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
+alert("Your lip gloss was originally $" +originalPrice+ ", but after a" +discountPercent+ "% discount, it is now $"
+    +withoutSalesTax+ "without sales tax, and $" +withSalesTax+ " with tax.";
