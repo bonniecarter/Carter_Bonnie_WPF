@@ -35,12 +35,21 @@ console.log(salesTax);
 
 //do the math
 
-var paidPercentage = (100-discountPercent)/100
+var paidPercentage = (100-discountPercent)/100;
+console.log(paidPercentage);
 
-var withoutSalesTax =
+var withoutSalesTax = originalPrice*paidPercentage;
+console.log(withoutSalesTax);
 
-var withSalesTax =
+var salesTaxDecimal = salesTax/100;
+console.log(salesTaxDecimal);
+
+var taxOnItem = withoutSalesTax*salesTaxDecimal;
+console.log(taxOnItem);
+
+var withSalesTax = withoutSalesTax+taxOnItem;
+console.log(withSalesTax);
 
 //results “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
-alert("Your lip gloss was originally $" +originalPrice+ ", but after a" +discountPercent+ "% discount, it is now $"
-    +withoutSalesTax+ "without sales tax, and $" +withSalesTax+ " with tax.";
+alert("Your lip gloss was originally $" +originalPrice+ ", but after a " +discountPercent+ "% discount, it is now $"
+    +withoutSalesTax+ " without sales tax, and $" +withSalesTax+ " with tax.");
