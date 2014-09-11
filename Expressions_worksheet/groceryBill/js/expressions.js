@@ -4,38 +4,33 @@
  * Activity: Expressions Worksheet
  */
 
-//Find out how many pizzas there were
-alert("If you can't remember how much Sparky ate and if he deserves a cookie or not, we know!");
+//declare variables - and prompts for grocery bill totals.
+var week1 = prompt ("What was your grocery bill in week 1?");
+var week2 = prompt ("What was your grocery bill in week 2?");
+var week3 = prompt ("What was your grocery bill in week 3?");
+var week4 = prompt ("What was your grocery bill in week 4?");
+var week5 = prompt ("What was your grocery bill in week 5?");
 
-//Find out variables
-//people
-var attendees = prompt ("How many folks attended your party?");
+//show array
 
-//pizzas
-var pizzas = prompt ("How many pizzas did you order last night?");
+var allWeeks = [(week1),(week2),(week3),(week4),(week5)];
 
-var pizzaSlices = pizzas*8;
-var pizzaPerGuest = parseInt(pizzaSlices/attendees);
-var pizzaRemainder = pizzaSlices%attendees;
+//add values
+console.log(week1);
+console.log(week2);
+console.log(week3);
+console.log(week4);
+console.log(week5);
 
-console.log(pizzaSlices);
-console.log(pizzaPerGuest);
-console.log(pizzaRemainder);
+var totalBills = parseInt(allWeeks[0]) + parseInt(allWeeks[1]) + parseInt(allWeeks[2]) + parseInt(allWeeks[3]) + parseInt(allWeeks[4]);
+console.log(allWeeks[0]);
+console.log(totalBills);
 
-alert("At your party last night you had "+attendees+" folks partying into the night. Each of your guests consumed "
-    +pizzaPerGuest+" slices of pizza leaving sparky with a full belly from eating "+pizzaRemainder+" pieces of pizza.");
+//get average
 
-//input for array (5 items)
+var averageBills = totalBills/5;
+console.log(averageBills);
 
-//add up & get average of grocery bills
+//"You have spent a total of $X on groceries over 5 weeks. That is an average of $X per week” Output
+alert ("You have spent a total of $"+totalBills+" over 5 weeks. That is an average of $"+averageBills+" per week.")
 
-//print
-
-//declare variables
-var Week1 = prompt ("What was your grocery bill in week 1?");
-var Week2 = prompt ("What was your grocery bill in week 2?");
-var Week3 = prompt ("What was your grocery bill in week 3?");
-var Week4 = prompt ("What was your grocery bill in week 4?");
-var Week5 = prompt ("What was your grocery bill in week 5?");
-
-//get inputs for grocery bills
