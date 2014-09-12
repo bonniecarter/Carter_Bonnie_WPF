@@ -27,3 +27,8 @@ var garbageBags = prompt("How many black garbage bags do you see?");
 
 var mysteryBoxes = prompt("How many mystery boxes are there?");
 
+//take cubic feet & multiply by percentage full x .01 (percentage to percent) + 25 * the mystery boxes +5 * garbage bags
+
+var valueUnit = cubicFeet*percentFull*.01 + 25*mysteryBoxes + 5*garbageBags;
+
+alert("The value of your storage locker is $" + valueUnit+ ".");
