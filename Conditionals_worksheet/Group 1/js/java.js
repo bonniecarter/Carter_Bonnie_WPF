@@ -15,7 +15,7 @@ var fahOrCel = prompt ("is it fahrenheit or celsius?");
 
 //if fahrenheit then
 
-if (fahOrCel == fahrenheit){
+if (fahOrCel == "fahrenheit"){
 
     var celsiusDegree = 5/9 * (degrees - 32);
     alert("It is " +celsiusDegree+ " celsius outside!")
