@@ -14,12 +14,13 @@ var realtorSells = prompt("How many houses does the average Realtor sell?");
 // average commission splits
 var averageCommissionSplit = prompt ("What is the average commission in the purchase & sales of a home?");
 var commissionDecimal = averageCommissionSplit*.01;
-console.log("commission split for entire transaction is" +commissionDecimal".");
+console.log("Commission split for entire transaction is " +commissionDecimal+".");
 
 // math, what is the commission?
 
-var commissionDue = averagePriceHome * commissionDecimal
-var coBrokeCommissionDue = commissionDue/2
+var commissionDue = averagePriceHome * commissionDecimal;
+var coBrokeCommissionDue = commissionDue/2;
+console.log("The total commission due on a sale is $" +commissionDue+". Yet with a co-broke the total commission due on a sale is $" +coBrokeCommissionDue+ ".");
 
 
 
