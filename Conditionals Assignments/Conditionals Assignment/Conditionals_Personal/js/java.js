@@ -11,10 +11,12 @@ var schoolHrs = prompt("How many hours do you dedicate to school a week?");
 var familyHrs = prompt("How many hours do you spend with your family a week?");
 var extraHrs = prompt("We all have to eat and need a few minutes of down time to ourselves. \nHow many hours a day do you need a day to yourself?");
 
-var sleepWk = sleepHrs*7
-var extraWk = extraHrs*7
+var sleepWk = sleepHrs*7;
+var extraWk = extraHrs*7;
 
-var totalHrs = sleepWk + workHrs + schoolHrs + familyHrs + extraWk;
+console.log("Sleep Hours " +sleepHrs+ ". Work Hours " +workHrs+ ". School Hours " +schoolHrs+ ". Family Hours " +familyHrs+ ". Extra Hours " +extraHrs+ ". Sleep Per Week " +sleepWk+ ". Extras Per Week " +extraWk+ ".");
+
+var totalHrs = (sleepWk) + (workHrs) + (schoolHrs) + (familyHrs) + (extraWk);
 
 console.log("You need " +totalHrs+ " per week.");
 
