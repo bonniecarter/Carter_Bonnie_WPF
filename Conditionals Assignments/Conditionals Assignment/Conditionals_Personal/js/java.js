@@ -16,13 +16,13 @@ var extraWk = extraHrs*7;
 
 console.log("Sleep Hours " +sleepHrs+ ". Work Hours " +workHrs+ ". School Hours " +schoolHrs+ ". Family Hours " +familyHrs+ ". Extra Hours " +extraHrs+ ". Sleep Per Week " +sleepWk+ ". Extras Per Week " +extraWk+ ".");
 
-var totalHrs = (sleepWk) + (workHrs) + (schoolHrs) + (familyHrs) + (extraWk);
+var totalHrs = parseInt(sleepWk) + parseInt(workHrs) + parseInt(schoolHrs) + parseInt(familyHrs) + parseInt(extraWk);
 
 console.log("You need " +totalHrs+ " per week.");
 
 var hrsPerDay = totalHrs / 7;
 
-console.log("That's " +hrsPerDay+ " you have accounted for.");
+console.log("That's " +hrsPerDay+ " hours per day that you have accounted already accounted for.");
 
 enoughTime = (hrsPerDay > 24) ? "You need to prioritize, you are out of time!" : "Great job scheduling your time, super efficient!";
 console.log(enoughTime);
