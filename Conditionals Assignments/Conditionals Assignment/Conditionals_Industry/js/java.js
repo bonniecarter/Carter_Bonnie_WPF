@@ -44,7 +44,7 @@ var yearlySplitPerAgent = agencySplitKeep*12;
 var numberOfAgents = yearlyCosts/yearlySplitPerAgent;
 console.log("Each agent will make an average of $" +yearlyAgentIncome+ " per year, while the agency will make an average of $" +yearlySplitPerAgent+ ", per agent, per year. The number of agents you will need to keep your company afloat is " +numberOfAgents+ ".");
 
-alert("The number of agents you will need to keep your company afloat is " +numberOfAgents+ ",");
+alert("The number of agents you will need to keep your company afloat is " +numberOfAgents+ ".");
 
 var numberCurrentAgents = prompt("How many agents do you currently have?");
 
