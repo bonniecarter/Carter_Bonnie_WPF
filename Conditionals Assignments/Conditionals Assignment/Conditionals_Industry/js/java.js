@@ -15,9 +15,9 @@ var realtorSells = prompt("How many houses does the average Realtor sell in a ye
 var averageCommissionSplit = prompt ("What is the average commission in the purchase & sales of a home?");
 var commissionDecimal = averageCommissionSplit*.01;
 
-// average angency split
+// average agency split
 var agencySplit = prompt ("What percent split does your agency keep from it's Realtors?");
-var agencySplitDecimal = agencySplit*.01
+var agencySplitDecimal = agencySplit*.01;
 
 console.log("Commission split for entire transaction is " +commissionDecimal+".");
 console.log("The Agency keeps " +agencySplitDecimal+ " of the commission.");
@@ -27,7 +27,7 @@ console.log("The Agency keeps " +agencySplitDecimal+ " of the commission.");
 var commissionDue = averagePriceHome * commissionDecimal;
 var coBrokeCommissionDue = commissionDue/2;
 var agencySplitKeep = coBrokeCommissionDue * agencySplitDecimal;
-var agentSplitKeep = coBrokeCommissionDue * (.1-agencySplitDecimal);
+var agentSplitKeep = coBrokeCommissionDue * (1.-agencySplitDecimal);
 console.log("The total commission due on a $" +averagePriceHome+ " sale is $" +commissionDue+". Yet with a co-broke the total commission due on a sale is $" +coBrokeCommissionDue+ ". Where the agency will keep a split of $" +agencySplitKeep+ " for each sale.");
 console.log("The agent will keep $" +agentSplitKeep+ " from each transaction.");
 
@@ -42,5 +42,14 @@ var yearlyCosts = monthlyCosts*12;
 var yearlySplitPerAgent = agencySplitKeep*12;
 
 var numberOfAgents = yearlyCosts/yearlySplitPerAgent;
-console.log("Each agent will make an average of" +yearlyAgentIncome+ " per year, while the agency will make an average of " +yearlySplitPerAgent+ "The number of agents you will need to keep your company afloat is " +numberOfAgents+ ".");
+console.log("Each agent will make an average of $" +yearlyAgentIncome+ " per year, while the agency will make an average of $" +yearlySplitPerAgent+ ", per agent, per year. The number of agents you will need to keep your company afloat is " +numberOfAgents+ ".");
 
+alert("The number of agents you will need to keep your company afloat is " +numberOfAgents+ ",");
+
+var numberCurrentAgents = prompt("How many agents do you currently have?");
+
+if (numberCurrentAgents < numberOfAgents){
+    alert("Time to hire new agents!")
+}else{
+    alert("Great! You're on the right track!")
+}
