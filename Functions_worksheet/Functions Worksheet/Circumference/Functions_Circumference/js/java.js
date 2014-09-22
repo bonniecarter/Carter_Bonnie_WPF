@@ -15,7 +15,6 @@
  */
 
 var radius = prompt("Enter the radius of the circle:");
-var circumIs = ("the circumference of the circle is " +circle+ ".");
 
 function calcCircum(radius){
     var circle;
@@ -24,4 +23,6 @@ function calcCircum(radius){
     return circle;
 }
 
-console.log(circumIs);
+var circle = calcCircum();
+
+console.log(circle);
