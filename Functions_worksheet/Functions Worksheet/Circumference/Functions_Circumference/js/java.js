@@ -7,23 +7,17 @@
 //Calculate the circumference of a circle
 
 /**
- function circum() {
+ function circumference() {
   var radius = prompt("Enter the radius of the circle","");
   var circle = 2 * Math.PI * radius;
   alert("The circumference is "+circle+".")
 }
  */
 
-var radius = prompt("Enter the radius of the circle:");
+var radius = prompt("Enter the radius of the circle","");
 
-function calcCircum(radius){
-    var circle;
-    circle = 2 * Math.PI * radius;
+function circumference(radius) {
 
-    return circle;
+    var circle = 2 * Math.PI * radius;
+    alert("The circumference is "+circle+".")
 }
-
-var circle;
-var circleIs = "The circumference of the circle is" +circle+".";
-
-console.log(circleIs);
