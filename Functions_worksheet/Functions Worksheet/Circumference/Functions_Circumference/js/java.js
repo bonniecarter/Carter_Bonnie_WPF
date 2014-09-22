@@ -4,3 +4,12 @@
  * Assignment Functions Circumference
  */
 
+//Calculate the circumference of a circle
+
+/**
+ function circum() {
+  var radius = prompt("Enter the radius of the circle","");
+  var circle = 2 * Math.PI * radius;
+  alert("The circumference is "+circle+".")
+}
+ */
