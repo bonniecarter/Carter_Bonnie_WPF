@@ -17,28 +17,6 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="java.js" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Circumference/Functions_Circumference/js/java.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.77329975" vertical-offset="68" max-vertical-offset="465">
-                    <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-                    <folding>
-                      <element signature="n#!!doc" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Functions Worksheet" />
@@ -58,8 +36,8 @@
       <file leaf-file-name="java.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stung/Functions_Circumference/js/java.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43307087" vertical-offset="0" max-vertical-offset="381">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.35433072" vertical-offset="0" max-vertical-offset="381">
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -339,7 +317,7 @@
     <entry file="file://$PROJECT_DIR$/Circumference/Functions_Circumference/js/java.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77329975" vertical-offset="68" max-vertical-offset="465">
-          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -348,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Stung/Functions_Circumference/js/java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43307087" vertical-offset="0" max-vertical-offset="381">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.35433072" vertical-offset="0" max-vertical-offset="381">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
           <folding />
         </state>
       </provider>
