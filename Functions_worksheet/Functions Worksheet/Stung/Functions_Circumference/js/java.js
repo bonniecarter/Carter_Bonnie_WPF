@@ -12,7 +12,7 @@ function beeCalculation(lbs) {     //created function called beeCalculation that
     return beeTotal;        //return bee total to outside of function
 }
 
-var lbAsk = prompt("How many lbs is the animal?");
-var total = beeCalculation(lbAsk);
+var lbAsk = prompt("How many lbs is the animal?");     //prompt user to find out total lbs of animal
+var total = beeCalculation(lbAsk);      //create a hold for the beeTotal in total and run the beeCalculation function
 
-console.log(total);
+console.log(total);         //print out the total
