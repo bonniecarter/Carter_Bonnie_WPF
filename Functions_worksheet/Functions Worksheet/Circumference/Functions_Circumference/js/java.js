@@ -23,6 +23,7 @@ function calcCircum(radius){
     return circle;
 }
 
-var circle = calcCircum();
+var circle;
+var circleIs = "The circumference of the circle is" +circle+".";
 
-console.log(circle);
+console.log(circleIs);
