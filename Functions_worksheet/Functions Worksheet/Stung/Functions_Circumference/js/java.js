@@ -9,7 +9,7 @@ function beeCalculation(lbs) {     //created function called beeCalculation that
     var beeTotal = lbs * beeStings;          //getting the total lbs times stings
     alert("It takes " +beeTotal+ "bee stings to kill this animal.");   //alert user of bee total
 
-    return beeTotal;
+    return beeTotal;        //return bee total to outside of function
 }
 
 var lbAsk = prompt("How many lbs is the animal?");
