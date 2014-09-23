@@ -30,8 +30,17 @@ var moTaxedRemainWhole = moTax*moRemain;
 
     }
 
-    console.log("month " +month+ ", day " +day+ ", tax for year " +yrTax+ ".");
-    console.log("taxes per month $" +moTax+ ", months remaining in the year: " +moRemain+ ", tax full months: " +moTaxedRemainWhole+".");
+    console.log("Month: " +month+ ", Day: " +day+ ", Tax for Year: $" +yrTax+ ".");
+    console.log("Taxes Per Month: $" +moTax+ ", Months Remaining in the Year: " +moRemain+ ", Tax Full Months: " +moTaxedRemainWhole+".");
+    console.log("Tax Remaining in Month: " +daysOfMonTax);
+
+function amountOwed(monthTx,daysTx){
+    var totalAmountOwed = monthTx + daysTx;
+    alert("The total taxes owed at your closing is $"+totalAmountOwed);
+    return totalAmountOwed;
+}
+
+var TtlAmtOwed = amountOwed(moTaxedRemainWhole,daysOfMonTax);
+    console.log("The total taxes owed at your closing is $"+TtlAmtOwed);
 
 
-var total = amountOwed(month,day,yrTax);
