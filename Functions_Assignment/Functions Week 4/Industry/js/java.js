@@ -30,6 +30,8 @@ var moTaxedRemainWhole = moTax*moRemain;
 
     }
 
+    daysOfMonTax = +daysOfMonTax.toFixed(2); //to fix decimal points to 2
+
     console.log("Month: " +month+ ", Day: " +day+ ", Tax for Year: $" +yrTax+ ".");
     console.log("Taxes Per Month: $" +moTax+ ", Months Remaining in the Year: " +moRemain+ ", Tax Full Months: " +moTaxedRemainWhole+".");
     console.log("Tax Remaining in Month: " +daysOfMonTax);
