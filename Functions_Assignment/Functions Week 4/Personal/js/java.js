@@ -67,7 +67,7 @@ else {
 } */    // this was redundant so I removed it.
 
 function kitchenConv(i,n,t){
-    if (t = "cup") {
+    if (t == "cup") {
 
         var cup=n;
         var ounce=parseInt(n)*8;
@@ -75,33 +75,33 @@ function kitchenConv(i,n,t){
         var tsp=parseInt(n)*48;
         alert(i+" converts to: " +ounce+ " ounces, " +tbsp+" tablespoons and " +tsp+ " teaspoons");
         console.log(i+" converts to: " +ounce+ " ounces, " +tbsp+" tablespoons and " +tsp+ " teaspoons");
-    }
+    }else
 
-    if (t = "ounce") {
-        cup=parseInt(n)*.125;
+    if (t == "ounce") {
+        cup=parseInt(n)*0.120095;
         ounce=n;
-        tbsp=parseInt(n)*2;
-        tsp=parseInt(n)*6;
+        tbsp=parseInt(n)*1.92152;
+        tsp=parseInt(n)*5.76456;
         alert(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
         console.log(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
-    }
+    }else
 
-    if (t = "tbsp") {
+    if (t == "tbsp") {
         cup=parseInt(n)*.0625;
         ounce=parseInt(n)*.5;
         tbsp=n;
         tsp=parseInt(n)*3;
         alert(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tsp+ " teaspoons");
         console.log(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tsp+ " teaspoons");
-    }
+    }else
 
-    if (t = "tsp") {
-        cup=parseInt(n);
-        ounce=parseInt(n);
-        tbsp=parseInt(n);
+    if (t == "tsp") {
+        cup=parseInt(n)*0.020833333333333;
+        ounce=parseInt(n)*0.16666666666667;
+        tbsp=parseInt(n)*0.33333333333333;
         tsp=n;
-        alert(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
-        console.log(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
+        alert(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tbsp+ " tablespoons");
+        console.log(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tbsp+ " tablespoons");
     }
 }
 
