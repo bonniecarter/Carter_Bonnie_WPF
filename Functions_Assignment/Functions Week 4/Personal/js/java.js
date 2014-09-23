@@ -16,22 +16,21 @@ var numberOfMeas = initMeasurement.replace(/\D+/g,'');
 console.log("Initial Measurement Input: "+initMeasurement);
 console.log("The number to calculate in measurement is: "+numberOfMeas);
 
-
 //to split measurement type from string
 if (initMeasurement.indexOf("cup") != -1) {
     var typeOfMeas = "cup";
     console.log(typeOfMeas+ " should be cup");
 }
 else if (initMeasurement.indexOf("ounce") != -1) {
-    var typeOfMeas = "ounce";
+    typeOfMeas = "ounce";
     console.log(typeOfMeas+ " should be ounce");
 }
 else if (initMeasurement.indexOf ("tbsp") != -1) {
-    var typeOfMeas = "tbsp";
+    typeOfMeas = "tbsp";
     console.log(typeOfMeas+ " should be tablespoon");
 }
 else if (initMeasurement.indexOf ("tsp") != -1) {
-    var typeOfMeas = "tsp";
+    typeOfMeas = "tsp";
     console.log(typeOfMeas+ " should be teaspoon");
 }
 else {
@@ -51,7 +50,7 @@ else {
 }
  */ //this did not work!!! i did however figure out the .indexOf below.
 
-if (initMeasurement.indexOf("cup") != -1) {
+/** if (initMeasurement.indexOf("cup") != -1) {
     console.log("It's a cup");
 }
 else if (initMeasurement.indexOf("ounce") != -1) {
@@ -65,5 +64,45 @@ else if (initMeasurement.indexOf ("tsp") != -1) {
 }
 else {
     console.log("Try again, only cup, ounce, tbsp or tsp is accepted");
+} */    // this was redundant so I removed it.
+
+function kitchenConv(i,n,t){
+    if (t = "cup") {
+
+        var cup=n;
+        var ounce=parseInt(n)*8;
+        var tbsp=parseInt(n)*16;
+        var tsp=parseInt(n)*48;
+        alert(i+" converts to: " +ounce+ " ounces, " +tbsp+" tablespoons and " +tsp+ " teaspoons");
+        console.log(i+" converts to: " +ounce+ " ounces, " +tbsp+" tablespoons and " +tsp+ " teaspoons");
+    }
+
+    if (t = "ounce") {
+        cup=parseInt(n)*.125;
+        ounce=n;
+        tbsp=parseInt(n)*2;
+        tsp=parseInt(n)*6;
+        alert(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
+        console.log(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
+    }
+
+    if (t = "tbsp") {
+        var cup=;
+        var ounce=;
+        var tbs=;
+        var tsp=;
+        alert();
+        console.log();
+    }
+
+    if (t = "tsp") {
+        var cup=;
+        var ounce=;
+        var tbs=;
+        var tsp=;
+        alert();
+        console.log();
+    }
 }
 
+kitchenConv(initMeasurement,numberOfMeas,typeOfMeas);
