@@ -56,8 +56,8 @@
       <file leaf-file-name="java.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Personal/js/java.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.986166" vertical-offset="0" max-vertical-offset="1095">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35573122" vertical-offset="30" max-vertical-offset="1125">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -351,7 +351,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Industry/index.html">
@@ -410,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Personal/js/java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.986166" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35573122" vertical-offset="30" max-vertical-offset="1125">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -6,35 +6,37 @@ Personal
 Idea: Kitchen Conversions
 */
 
+//initial variables
+
 var initMeasurement = prompt("What is your measurement?\nPlease specify cup, ounce, tbsp or tsp.");
-var numberOfMeas = initMeasurement.replace(/^\D+/g, '');
+var numberOfMeas = initMeasurement.replace(/\D+/g,'');
+
+//test print to track errors
 
 console.log("Initial Measurement Input: "+initMeasurement);
 console.log("The number to calculate in measurement is: "+numberOfMeas);
 
-//to split measurement type from string
 
+//to split measurement type from string
 if (initMeasurement.indexOf("cup") != -1) {
-    console.log("It's a cup");
     var typeOfMeas = "cup";
+    console.log(typeOfMeas+ " should be cup");
 }
 else if (initMeasurement.indexOf("ounce") != -1) {
-    console.log("It's an ounce");
     var typeOfMeas = "ounce";
+    console.log(typeOfMeas+ " should be ounce");
 }
 else if (initMeasurement.indexOf ("tbsp") != -1) {
-    console.log("It's a tablespoon");
     var typeOfMeas = "tbsp";
+    console.log(typeOfMeas+ " should be tablespoon");
 }
 else if (initMeasurement.indexOf ("tsp") != -1) {
-    console.log("It's a teaspoon");
     var typeOfMeas = "tsp";
+    console.log(typeOfMeas+ " should be teaspoon");
 }
 else {
     console.log("Try again, only cup, ounce, tbsp or tsp is accepted");
 }
-
-console.log("the Type of Measurement (in code) is: " +typeOfMeas+ ". Did it work?");
 
 /** if (initMeasurement.indexOf("cup") ){
     console.log("It's a cup");
