@@ -87,21 +87,21 @@ function kitchenConv(i,n,t){
     }
 
     if (t = "tbsp") {
-        var cup=;
-        var ounce=;
-        var tbs=;
-        var tsp=;
-        alert();
-        console.log();
+        cup=parseInt(n)*.0625;
+        ounce=parseInt(n)*.5;
+        tbsp=n;
+        tsp=parseInt(n)*3;
+        alert(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tsp+ " teaspoons");
+        console.log(i+ " converts to: " +cup+ " cup, " +ounce+ " ounces and " +tsp+ " teaspoons");
     }
 
     if (t = "tsp") {
-        var cup=;
-        var ounce=;
-        var tbs=;
-        var tsp=;
-        alert();
-        console.log();
+        cup=parseInt(n);
+        ounce=parseInt(n);
+        tbsp=parseInt(n);
+        tsp=n;
+        alert(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
+        console.log(i+ " converts to: " +cup+ " cup, " +tbsp+ " tablespoons and " +tsp+ " teaspoons");
     }
 }
 
