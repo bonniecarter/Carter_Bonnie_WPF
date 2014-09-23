@@ -12,25 +12,26 @@ var yrTax = prompt ("What were your paid in full taxes for 2014?");
 
 console.log(month,day,yrTax);
 
-function amountOwed(m,d,t) {
+    //var wholeMonTax = (yrTax/12) * (12-month);
 
-    var wholeMonTax = (t/12) * (12-month);
+var moTax = yrTax / 12;
+var moRemain = 12 - month;
+var moTaxedRemainWhole = moTax*moRemain;
+
 
     if (month == 1 || 3 || 5 || 7 || 8 || 10 ||12){
-        var daysOfMonTax = (wholeMonTax/31)(31-d);
+        var daysOfMonTax = (moTax/31)*(31-day);
     }else{
         if (month == 2){
-            daysOfMonTax = (wholeMonTax/28)(28-d);
+            daysOfMonTax = (moTax/28)*(28-day);
         }else{
-            daysOfMonTax = (wholeMonTax/30)(30-d);
+            daysOfMonTax = (moTax/30)*(30-day);
         }
 
     }
 
-    console.log("month " +m+ ", day " +d+ ", tax for year " +t+ ".");
-    console.log("taxes per month" +wholeMonTax+ ", taxable amount in current month " +daysOfMonTax);
+    console.log("month " +month+ ", day " +day+ ", tax for year " +yrTax+ ".");
+    console.log("taxes per month $" +moTax+ ", months remaining in the year: " +moRemain+ ", tax full months: " +moTaxedRemainWhole+".");
 
-    return taxTotal;
-}
 
 var total = amountOwed(month,day,yrTax);
